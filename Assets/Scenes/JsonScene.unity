@@ -1,0 +1,1636 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &200398269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 200398271}
+  - component: {fileID: 200398270}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &200398270
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200398269}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &200398271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200398269}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &924548923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 924548926}
+  - component: {fileID: 924548925}
+  - component: {fileID: 924548924}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &924548924
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924548923}
+  m_Enabled: 1
+--- !u!20 &924548925
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924548923}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &924548926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924548923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2065233722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2065233724}
+  - component: {fileID: 2065233725}
+  m_Layer: 0
+  m_Name: JsonLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2065233724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065233722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.7060935, y: -0.055527646, z: -6.1402698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2065233725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065233722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c11743047bc43cfa082c658623bbbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FilePath: /Users/osada/osadadev/NeRF/UnityCameraParameter/Assets/instant-ngp/json/transforms.json
+  Data:
+    camera_angle_x: 0.7481849417937728
+    camera_angle_y: 1.2193576119562444
+    fl_x: 1375.52
+    fl_y: 1374.49
+    k1: 0.0578421
+    k2: -0.0805099
+    p1: -0.000980296
+    p2: 0.00015575
+    cx: 554.558
+    cy: 965.268
+    w: 1080
+    h: 1920
+    aabb_scale: 4
+    frames:
+    - file_path: images/0001.jpg
+      sharpness: 31.752987
+      transform:
+        e00: 0.8926439
+        e01: 0.087996006
+        e02: 0.44209003
+        e03: 3.1683595
+        e10: 0.446419
+        e11: -0.036754522
+        e12: -0.8940689
+        e13: -5.47949
+        e20: -0.062425684
+        e21: 0.9954425
+        e22: -0.07209179
+        e23: -0.9791661
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0002.jpg
+      sharpness: 34.47882
+      transform:
+        e00: 0.89195263
+        e01: 0.08782115
+        e02: 0.44351774
+        e03: 3.1024113
+        e10: 0.44760308
+        e11: -0.033067994
+        e12: -0.8936207
+        e13: -5.5301733
+        e20: -0.06381256
+        e21: 0.9955872
+        e22: -0.0688041
+        e23: -0.985797
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0003.jpg
+      sharpness: 34.03254
+      transform:
+        e00: 0.892026
+        e01: 0.08744934
+        e02: 0.44344345
+        e03: 3.0170863
+        e10: 0.44734132
+        e11: -0.030556103
+        e12: -0.8938411
+        e13: -5.5545464
+        e20: -0.06461591
+        e21: 0.99570024
+        e22: -0.06637655
+        e23: -0.99589574
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0004.jpg
+      sharpness: 29.769472
+      transform:
+        e00: 0.8937034
+        e01: 0.08748819
+        e02: 0.44004673
+        e03: 2.9399822
+        e10: 0.44361517
+        e11: -0.025651162
+        e12: -0.89585084
+        e13: -5.5548306
+        e20: -0.06708864
+        e21: 0.99583524
+        e22: -0.06173555
+        e23: -0.95418024
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0005.jpg
+      sharpness: 24.445086
+      transform:
+        e00: 0.8945676
+        e01: 0.08903544
+        e02: 0.43797407
+        e03: 2.965044
+        e10: 0.441067
+        e11: -0.017630389
+        e12: -0.8973009
+        e13: -5.554056
+        e20: -0.07216992
+        e21: 0.99587244
+        e22: -0.055042177
+        e23: -0.9083874
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0006.jpg
+      sharpness: 27.124474
+      transform:
+        e00: 0.8811669
+        e01: 0.090140074
+        e02: 0.46413344
+        e03: 3.1357572
+        e10: 0.4663569
+        e11: -0.004124659
+        e12: -0.8845871
+        e13: -5.469274
+        e20: -0.07782235
+        e21: 0.99592054
+        e22: -0.045671955
+        e23: -0.89178693
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0007.jpg
+      sharpness: 21.502008
+      transform:
+        e00: 0.8552306
+        e01: 0.08628584
+        e02: 0.51101387
+        e03: 3.3473544
+        e10: 0.51278824
+        e11: 0.0018526623
+        e12: -0.85851306
+        e13: -5.2298856
+        e20: -0.075024255
+        e21: 0.9962687
+        e22: -0.042661916
+        e23: -0.90071756
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0008.jpg
+      sharpness: 19.888845
+      transform:
+        e00: 0.8111451
+        e01: 0.076483265
+        e02: 0.5798232
+        e03: 3.7502291
+        e10: 0.58161867
+        e11: -0.0014858821
+        e12: -0.8134608
+        e13: -4.9337597
+        e20: -0.06135461
+        e21: 0.9970698
+        e22: -0.045689307
+        e23: -0.80762494
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0009.jpg
+      sharpness: 24.33085
+      transform:
+        e00: 0.76655877
+        e01: 0.06591137
+        e02: 0.6387824
+        e03: 4.08328
+        e10: 0.64062184
+        e11: -0.009372896
+        e12: -0.7677991
+        e13: -4.6383686
+        e20: -0.044619434
+        e21: 0.99778146
+        e22: -0.049409162
+        e23: -0.72864354
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0012.jpg
+      sharpness: 18.79739
+      transform:
+        e00: 0.6517845
+        e01: 0.03055963
+        e02: 0.757788
+        e03: 4.9333344
+        e10: 0.75693166
+        e11: 0.036017478
+        e12: -0.6525004
+        e13: -3.6736372
+        e20: -0.047233734
+        e21: 0.9988838
+        e22: 0.00034406447
+        e23: -0.69264627
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0014.jpg
+      sharpness: 24.57315
+      transform:
+        e00: 0.5430593
+        e01: 0.048383486
+        e02: 0.83829933
+        e03: 5.3629537
+        e10: 0.8371627
+        e11: 0.04627008
+        e12: -0.54499346
+        e13: -3.079438
+        e20: -0.06515688
+        e21: 0.99775654
+        e22: -0.015377447
+        e23: -0.6704779
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0016.jpg
+      sharpness: 15.184318
+      transform:
+        e00: 0.34747496
+        e01: 0.05338042
+        e02: 0.9361686
+        e03: 5.639885
+        e10: 0.9356011
+        e11: 0.046854556
+        e12: -0.34993595
+        e13: -2.6792247
+        e20: -0.06254348
+        e21: 0.9974744
+        e22: -0.03366199
+        e23: -0.65827745
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0017.jpg
+      sharpness: 17.11474
+      transform:
+        e00: 0.31618392
+        e01: 0.06356456
+        e02: 0.946566
+        e03: 5.7295113
+        e10: 0.94649804
+        e11: 0.04677172
+        e12: -0.31930208
+        e13: -2.4789298
+        e20: -0.0645688
+        e21: 0.9968811
+        e22: -0.045375265
+        e23: -0.63242966
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0018.jpg
+      sharpness: 26.132317
+      transform:
+        e00: 0.37607878
+        e01: 0.05190412
+        e02: 0.9251328
+        e03: 5.7264934
+        e10: 0.9257557
+        e11: 0.02125395
+        e12: -0.37752444
+        e13: -2.5579305
+        e20: -0.039257806
+        e21: 0.9984259
+        e22: -0.040057372
+        e23: -0.6082314
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0019.jpg
+      sharpness: 26.73062
+      transform:
+        e00: 0.37222463
+        e01: 0.028081024
+        e02: 0.9277178
+        e03: 5.604054
+        e10: 0.9279164
+        e11: 0.010811365
+        e12: -0.37263155
+        e13: -2.6656024
+        e20: -0.020493777
+        e21: 0.9995472
+        e22: -0.022032585
+        e23: -0.5608565
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0021.jpg
+      sharpness: 18.27247
+      transform:
+        e00: 0.24376899
+        e01: 0.024058767
+        e02: 0.9695349
+        e03: 5.7627907
+        e10: 0.9696683
+        e11: 0.012394485
+        e12: -0.2441101
+        e13: -1.6523249
+        e20: -0.017889885
+        e21: 0.9996337
+        e22: -0.020307628
+        e23: -0.628586
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0022.jpg
+      sharpness: 20.684698
+      transform:
+        e00: 0.120408975
+        e01: 0.06522988
+        e02: 0.990579
+        e03: 5.861896
+        e10: 0.9926888
+        e11: 0.0005376507
+        e12: -0.12070083
+        e13: -1.3000113
+        e20: -0.008405884
+        e21: 0.99787015
+        e22: -0.06468823
+        e23: -0.5588006
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0024.jpg
+      sharpness: 16.979052
+      transform:
+        e00: 0.010108527
+        e01: 0.10599554
+        e02: 0.9943152
+        e03: 5.9158144
+        e10: 0.99987084
+        e11: 0.011355161
+        e12: -0.011375485
+        e13: -0.70446926
+        e20: -0.01249636
+        e21: 0.9943018
+        e22: -0.10586707
+        e23: -0.5461811
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0025.jpg
+      sharpness: 22.886663
+      transform:
+        e00: -0.03497533
+        e01: 0.1103053
+        e02: 0.99328214
+        e03: 5.944689
+        e10: 0.9990022
+        e11: 0.03147772
+        e12: 0.0316811
+        e13: -0.44564965
+        e20: -0.027771663
+        e21: 0.99339914
+        e22: -0.11129619
+        e23: -0.59548086
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0026.jpg
+      sharpness: 19.8405
+      transform:
+        e00: -0.08904556
+        e01: 0.120660916
+        e02: 0.988692
+        e03: 5.8598003
+        e10: 0.9959343
+        e11: 0.024370113
+        e12: 0.086723685
+        e13: -0.23742625
+        e20: -0.013630376
+        e21: 0.9923946
+        e22: -0.122340396
+        e23: -0.6473955
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0027.jpg
+      sharpness: 26.903923
+      transform:
+        e00: -0.14157271
+        e01: 0.13551015
+        e02: 0.98060906
+        e03: 5.7897854
+        e10: 0.9895729
+        e11: -0.0071524545
+        e12: 0.14385523
+        e13: -0.11046087
+        e20: 0.026507601
+        e21: 0.99075013
+        e22: -0.13308458
+        e23: -0.6745656
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0029.jpg
+      sharpness: 26.585993
+      transform:
+        e00: -0.18015943
+        e01: 0.16525243
+        e02: 0.96965677
+        e03: 5.814554
+        e10: 0.98197585
+        e11: -0.027057422
+        e12: 0.18705952
+        e13: 0.37682104
+        e20: 0.057148457
+        e21: 0.9858801
+        e22: -0.15739925
+        e23: -0.6969244
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0030.jpg
+      sharpness: 28.502104
+      transform:
+        e00: -0.2293986
+        e01: 0.16717988
+        e02: 0.95886767
+        e03: 5.6739597
+        e10: 0.9710706
+        e11: -0.027813092
+        e12: 0.23716727
+        e13: 0.6256584
+        e20: 0.066318676
+        e21: 0.985534
+        e22: -0.15596318
+        e23: -0.69715697
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0031.jpg
+      sharpness: 25.10153
+      transform:
+        e00: -0.26062998
+        e01: 0.17003149
+        e02: 0.950348
+        e03: 5.587714
+        e10: 0.962743
+        e11: -0.027737185
+        e12: 0.26899186
+        e13: 0.7903601
+        e20: 0.07209706
+        e21: 0.9850482
+        e22: -0.15646747
+        e23: -0.6430825
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0032.jpg
+      sharpness: 21.280073
+      transform:
+        e00: -0.27655113
+        e01: 0.17786752
+        e02: 0.94439536
+        e03: 5.486618
+        e10: 0.9586937
+        e11: -0.016968727
+        e12: 0.28393406
+        e13: 1.0579667
+        e20: 0.06652783
+        e21: 0.9839081
+        e22: -0.16582774
+        e23: -0.616593
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0033.jpg
+      sharpness: 32.025833
+      transform:
+        e00: -0.26636955
+        e01: 0.20396362
+        e02: 0.94204354
+        e03: 5.32549
+        e10: 0.9619561
+        e11: -0.0053218827
+        e12: 0.2731522
+        e13: 1.1685072
+        e20: 0.060726564
+        e21: 0.97896403
+        e22: -0.19478646
+        e23: -0.7071717
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0034.jpg
+      sharpness: 18.662096
+      transform:
+        e00: -0.21926236
+        e01: 0.30949762
+        e02: 0.92527574
+        e03: 5.1808686
+        e10: 0.9723474
+        e11: -0.008835086
+        e12: 0.23337218
+        e13: 1.0893171
+        e20: 0.08040302
+        e21: 0.9508592
+        e22: -0.299002
+        e23: -1.0340996
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0035.jpg
+      sharpness: 19.613384
+      transform:
+        e00: -0.13805708
+        e01: 0.34203574
+        e02: 0.9294901
+        e03: 4.9740806
+        e10: 0.9828496
+        e11: -0.06853274
+        e12: 0.17120136
+        e13: 0.94698787
+        e20: 0.12225746
+        e21: 0.9371846
+        e22: -0.3267083
+        e23: -1.3390583
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0039.jpg
+      sharpness: 27.656626
+      transform:
+        e00: 0.11249245
+        e01: 0.30254737
+        e02: 0.9464727
+        e03: 4.3132095
+        e10: 0.9684674
+        e11: -0.246479
+        e12: -0.036317676
+        e13: 0.3604302
+        e20: 0.22229782
+        e21: 0.9207134
+        e22: -0.3207343
+        e23: -2.377286
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0042.jpg
+      sharpness: 29.70937
+      transform:
+        e00: 0.29086226
+        e01: 0.28847018
+        e02: 0.91224134
+        e03: 4.021358
+        e10: 0.9014619
+        e11: -0.40209264
+        e12: -0.16027515
+        e13: -0.5794744
+        e20: 0.32057098
+        e21: 0.8689687
+        e22: -0.37699836
+        e23: -2.600039
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0044.jpg
+      sharpness: 22.645864
+      transform:
+        e00: 0.37050083
+        e01: 0.18075769
+        e02: 0.91107404
+        e03: 3.7121556
+        e10: 0.83974594
+        e11: -0.48436317
+        e12: -0.24539635
+        e13: -1.1155756
+        e20: 0.3969335
+        e21: 0.8559902
+        e22: -0.33124733
+        e23: -2.6628716
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0045.jpg
+      sharpness: 28.107
+      transform:
+        e00: 0.441731
+        e01: 0.13302477
+        e02: 0.8872307
+        e03: 3.5198967
+        e10: 0.7943647
+        e11: -0.5176224
+        e12: -0.31788683
+        e13: -1.4312054
+        e20: 0.41696373
+        e21: 0.84520507
+        e22: -0.3343199
+        e23: -2.6278007
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0046.jpg
+      sharpness: 19.804644
+      transform:
+        e00: 0.5409435
+        e01: 0.07166406
+        e02: 0.8380001
+        e03: 3.3328466
+        e10: 0.7304289
+        e11: -0.5339794
+        e12: -0.4258395
+        e13: -1.7144545
+        e20: 0.41695735
+        e21: 0.8424548
+        e22: -0.3411984
+        e23: -2.5511103
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0049.jpg
+      sharpness: 30.015081
+      transform:
+        e00: 0.6663943
+        e01: 0.05054882
+        e02: 0.74388427
+        e03: 2.8041635
+        e10: 0.67266554
+        e11: -0.47112593
+        e12: -0.57058024
+        e13: -2.4456434
+        e20: 0.32162106
+        e21: 0.8806164
+        e22: -0.34795788
+        e23: -2.4772463
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0051.jpg
+      sharpness: 19.856802
+      transform:
+        e00: 0.7740126
+        e01: 0.066776514
+        e02: 0.6296394
+        e03: 2.4538267
+        e10: 0.60459507
+        e11: -0.373316
+        e12: -0.7036337
+        e13: -2.795115
+        e20: 0.18806829
+        e21: 0.92529786
+        e22: -0.32932386
+        e23: -2.3415177
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0052.jpg
+      sharpness: 13.456406
+      transform:
+        e00: 0.7932899
+        e01: 0.085864276
+        e02: 0.60275984
+        e03: 2.2485101
+        e10: 0.5938926
+        e11: -0.32718587
+        e12: -0.7350116
+        e13: -3.0263088
+        e20: 0.1341034
+        e21: 0.94105095
+        e22: -0.31054705
+        e23: -2.224002
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0054.jpg
+      sharpness: 18.437054
+      transform:
+        e00: 0.88289213
+        e01: 0.12567636
+        e02: 0.45244527
+        e03: 1.5845381
+        e10: 0.46901602
+        e11: -0.28303957
+        e12: -0.83660764
+        e13: -3.5672858
+        e20: 0.022918083
+        e21: 0.95083857
+        e22: -0.3088377
+        e23: -1.9795104
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0068.jpg
+      sharpness: 11.439009
+      transform:
+        e00: 0.93779653
+        e01: -0.20487699
+        e02: 0.28028935
+        e03: 1.465439
+        e10: 0.33754084
+        e11: 0.34907869
+        e12: -0.87419075
+        e13: -3.735735
+        e20: 0.081258826
+        e21: 0.914423
+        e22: 0.39651918
+        e23: 2.2149715
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0071.jpg
+      sharpness: 20.024672
+      transform:
+        e00: 0.9175043
+        e01: -0.24270116
+        e02: 0.31509155
+        e03: 1.648898
+        e10: 0.387392
+        e11: 0.3659073
+        e12: -0.84619135
+        e13: -3.8072257
+        e20: 0.09007709
+        e21: 0.8984476
+        e22: 0.42974198
+        e23: 2.4665918
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0072.jpg
+      sharpness: 21.373312
+      transform:
+        e00: 0.9131556
+        e01: -0.24746937
+        e02: 0.32389185
+        e03: 1.7884037
+        e10: 0.3977258
+        e11: 0.36701152
+        e12: -0.8409024
+        e13: -3.7154994
+        e20: 0.0892255
+        e21: 0.8966948
+        e22: 0.43356356
+        e23: 2.479984
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0073.jpg
+      sharpness: 22.273766
+      transform:
+        e00: 0.9048034
+        e01: -0.2570624
+        e02: 0.33948427
+        e03: 1.8743662
+        e10: 0.4163839
+        e11: 0.36710846
+        e12: -0.83177865
+        e13: -3.6175222
+        e20: 0.08919153
+        e21: 0.8939521
+        e22: 0.43919763
+        e23: 2.5048919
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0074.jpg
+      sharpness: 19.649967
+      transform:
+        e00: 0.8893088
+        e01: -0.26876673
+        e02: 0.36999282
+        e03: 1.9954216
+        e10: 0.44927865
+        e11: 0.3625425
+        e12: -0.8165243
+        e13: -3.4962137
+        e20: 0.08531628
+        e21: 0.89237183
+        e22: 0.44316337
+        e23: 2.4955225
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0075.jpg
+      sharpness: 16.46853
+      transform:
+        e00: 0.873324
+        e01: -0.27723557
+        e02: 0.40055764
+        e03: 2.1789498
+        e10: 0.4798861
+        e11: 0.34823745
+        e12: -0.8052581
+        e13: -3.4583883
+        e20: 0.083756715
+        e21: 0.89547265
+        e22: 0.4371656
+        e23: 2.504485
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0076.jpg
+      sharpness: 17.170383
+      transform:
+        e00: 0.8507312
+        e01: -0.29373506
+        e02: 0.43586352
+        e03: 2.4114528
+        e10: 0.51779914
+        e11: 0.32601932
+        e12: -0.7909463
+        e13: -3.387956
+        e20: 0.09022841
+        e21: 0.8985718
+        e22: 0.42945054
+        e23: 2.5197504
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0077.jpg
+      sharpness: 17.710142
+      transform:
+        e00: 0.8247835
+        e01: -0.31395254
+        e02: 0.47028342
+        e03: 2.6011288
+        e10: 0.55637443
+        e11: 0.30218765
+        e12: -0.7740352
+        e13: -3.3365772
+        e20: 0.100896254
+        e21: 0.90006477
+        e22: 0.42391452
+        e23: 2.545399
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0078.jpg
+      sharpness: 19.523523
+      transform:
+        e00: 0.7909643
+        e01: -0.34066364
+        e02: 0.5082568
+        e03: 2.8104956
+        e10: 0.6004666
+        e11: 0.27260062
+        e12: -0.751751
+        e13: -3.3121386
+        e20: 0.11754263
+        e21: 0.8997986
+        e22: 0.4201745
+        e23: 2.5563345
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0081.jpg
+      sharpness: 22.335545
+      transform:
+        e00: 0.69950587
+        e01: -0.42631695
+        e02: 0.57353777
+        e03: 3.2925909
+        e10: 0.69437563
+        e11: 0.21576281
+        e12: -0.68650496
+        e13: -2.955531
+        e20: 0.16892049
+        e21: 0.87846476
+        e22: 0.44695145
+        e23: 2.5233743
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0083.jpg
+      sharpness: 23.624489
+      transform:
+        e00: 0.66614133
+        e01: -0.4078591
+        e02: 0.6244253
+        e03: 3.1985784
+        e10: 0.73549604
+        e11: 0.22037935
+        e12: -0.6406861
+        e13: -2.7744992
+        e20: 0.123699114
+        e21: 0.8860496
+        e22: 0.44678253
+        e23: 2.6098566
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0084.jpg
+      sharpness: 22.036419
+      transform:
+        e00: 0.60011595
+        e01: -0.41784155
+        e02: 0.68210703
+        e03: 3.3499248
+        e10: 0.78908503
+        e11: 0.16939959
+        e12: -0.59046507
+        e13: -2.6993902
+        e20: 0.13117182
+        e21: 0.89258754
+        e22: 0.43137196
+        e23: 2.704589
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0085.jpg
+      sharpness: 21.745144
+      transform:
+        e00: 0.52683735
+        e01: -0.45131347
+        e02: 0.720249
+        e03: 3.4098144
+        e10: 0.83598995
+        e11: 0.12210196
+        e12: -0.5349878
+        e13: -2.440198
+        e20: 0.15350337
+        e21: 0.88397247
+        e22: 0.44162136
+        e23: 2.73553
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0087.jpg
+      sharpness: 20.970242
+      transform:
+        e00: 0.3535703
+        e01: -0.43339208
+        e02: 0.8289509
+        e03: 3.4699562
+        e10: 0.93101996
+        e11: 0.077310674
+        e12: -0.35668603
+        e13: -1.9756643
+        e20: 0.09049803
+        e21: 0.89788336
+        e22: 0.43083146
+        e23: 2.8466995
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0088.jpg
+      sharpness: 22.754278
+      transform:
+        e00: 0.30633324
+        e01: -0.42507106
+        e02: 0.85174817
+        e03: 3.5084105
+        e10: 0.9498353
+        e11: 0.07724233
+        e12: -0.30306214
+        e13: -1.7108486
+        e20: 0.06303175
+        e21: 0.9018584
+        e22: 0.42740938
+        e23: 2.8137348
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0089.jpg
+      sharpness: 25.274698
+      transform:
+        e00: 0.27066287
+        e01: -0.4105882
+        e02: 0.8707232
+        e03: 3.5534673
+        e10: 0.9618215
+        e11: 0.07727736
+        e12: -0.26254064
+        e13: -1.4944589
+        e20: 0.04050892
+        e21: 0.9085403
+        e22: 0.41582868
+        e23: 2.766507
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0090.jpg
+      sharpness: 16.708422
+      transform:
+        e00: 0.24091302
+        e01: -0.39337993
+        e02: 0.8872503
+        e03: 3.5907054
+        e10: 0.9703652
+        e11: 0.0799489
+        e12: -0.22803408
+        e13: -1.3276886
+        e20: 0.018769374
+        e21: 0.9158932
+        e22: 0.40098295
+        e23: 2.7072182
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0093.jpg
+      sharpness: 20.701067
+      transform:
+        e00: 0.12179825
+        e01: -0.31819612
+        e02: 0.9401684
+        e03: 3.8048184
+        e10: 0.99005276
+        e11: 0.10616322
+        e12: -0.092330255
+        e13: -0.62324107
+        e20: -0.0704322
+        e21: 0.94206196
+        e22: 0.32796144
+        e23: 2.3669977
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0094.jpg
+      sharpness: 26.230335
+      transform:
+        e00: 0.06553021
+        e01: -0.27282652
+        e02: 0.9598289
+        e03: 3.8157804
+        e10: 0.99305236
+        e11: 0.11204735
+        e12: -0.035949595
+        e13: -0.4999464
+        e20: -0.0977383
+        e21: 0.95551616
+        e22: 0.27827352
+        e23: 2.2021213
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0097.jpg
+      sharpness: 17.55772
+      transform:
+        e00: 0.10404755
+        e01: -0.18469346
+        e02: 0.9772729
+        e03: 3.8048956
+        e10: 0.99448884
+        e11: 0.032051433
+        e12: -0.099823125
+        e13: -0.2730567
+        e20: -0.012886289
+        e21: 0.98227334
+        e22: 0.18701045
+        e23: 1.5501299
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0099.jpg
+      sharpness: 15.68805
+      transform:
+        e00: 0.12637383
+        e01: -0.06792259
+        e02: 0.9896546
+        e03: 3.814879
+        e10: 0.9857198
+        e11: -0.10333076
+        e12: -0.13296323
+        e13: -0.085250005
+        e20: 0.11129295
+        e21: 0.9923252
+        e22: 0.053894352
+        e23: 0.9904135
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0103.jpg
+      sharpness: 30.85122
+      transform:
+        e00: -0.14641209
+        e01: 0.18109706
+        e02: 0.9725057
+        e03: 3.8972878
+        e10: 0.96978635
+        e11: -0.16765055
+        e12: 0.17722209
+        e13: 0.54642797
+        e20: 0.19513552
+        e21: 0.9690702
+        e22: -0.15107937
+        e23: -0.10077265
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0104.jpg
+      sharpness: 21.679075
+      transform:
+        e00: -0.23057017
+        e01: 0.20044869
+        e02: 0.95218575
+        e03: 3.7783923
+        e10: 0.9542924
+        e11: -0.14465946
+        e12: 0.26153317
+        e13: 0.77091163
+        e20: 0.19016667
+        e21: 0.9689654
+        e22: -0.15793248
+        e23: -0.20369874
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0105.jpg
+      sharpness: 23.788727
+      transform:
+        e00: -0.3031119
+        e01: 0.2212678
+        e02: 0.9269108
+        e03: 3.694111
+        e10: 0.9341886
+        e11: -0.12308752
+        e12: 0.33487472
+        e13: 1.0395839
+        e20: 0.18818815
+        e21: 0.9674141
+        e22: -0.16939655
+        e23: -0.26371485
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0106.jpg
+      sharpness: 20.315332
+      transform:
+        e00: -0.33623475
+        e01: 0.22380391
+        e02: 0.9147995
+        e03: 3.6062162
+        e10: 0.9246659
+        e11: -0.105876975
+        e12: 0.36576375
+        e13: 1.2606266
+        e20: 0.17871554
+        e21: 0.9688663
+        e22: -0.17134437
+        e23: -0.32213736
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0107.jpg
+      sharpness: 26.744637
+      transform:
+        e00: -0.37063843
+        e01: 0.21536423
+        e02: 0.90346295
+        e03: 3.5189798
+        e10: 0.9118436
+        e11: -0.10052644
+        e12: 0.39803967
+        e13: 1.4640926
+        e20: 0.17654544
+        e21: 0.9713458
+        e22: -0.1591195
+        e23: -0.39750737
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0108.jpg
+      sharpness: 27.500816
+      transform:
+        e00: -0.38922417
+        e01: 0.22781172
+        e02: 0.89252806
+        e03: 3.4919844
+        e10: 0.9025098
+        e11: -0.09958875
+        e12: 0.41899648
+        e13: 1.5369992
+        e20: 0.18433808
+        e21: 0.96859896
+        e22: -0.16683996
+        e23: -0.46181202
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0110.jpg
+      sharpness: 22.35281
+      transform:
+        e00: -0.39748847
+        e01: 0.3700804
+        e02: 0.83966863
+        e03: 3.4206686
+        e10: 0.9049233
+        e11: 0.0064750644
+        e12: 0.42552537
+        e13: 1.4151995
+        e20: 0.1520417
+        e21: 0.92897713
+        e22: -0.33746815
+        e23: -1.1641631
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0113.jpg
+      sharpness: 26.445238
+      transform:
+        e00: -0.29184052
+        e01: 0.27830684
+        e02: 0.9150817
+        e03: 3.1615856
+        e10: 0.9560568
+        e11: 0.11290003
+        e12: 0.27057174
+        e13: 1.0500848
+        e20: -0.028010828
+        e21: 0.9538338
+        e22: -0.29902595
+        e23: -1.8618639
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+    - file_path: images/0115.jpg
+      sharpness: 47.445225
+      transform:
+        e00: -0.1863643
+        e01: 0.30028102
+        e02: 0.9354676
+        e03: 3.3213422
+        e10: 0.9823536
+        e11: 0.0722661
+        e12: 0.17250784
+        e13: 0.8029906
+        e20: -0.015801746
+        e21: 0.9511093
+        e22: -0.30844995
+        e23: -1.8932756
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
