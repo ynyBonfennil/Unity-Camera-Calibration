@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 
 [ExecuteInEditMode]
-public class TransformsLoader : MonoBehaviour
+public class JsonLoader : MonoBehaviour
 {
     public string FilePath;
     public Transforms Data = new Transforms();
