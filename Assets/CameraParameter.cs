@@ -26,7 +26,7 @@ public class CameraParameter : MonoBehaviour
     }
 
     [ContextMenu("Get Change")]
-    private void GetChange()
+    public void GetChange()
     {
         float mmToPixelX = cam.pixelWidth / cam.sensorSize.x;
         float mmToPixelY = cam.pixelHeight / cam.sensorSize.y;
@@ -74,7 +74,7 @@ public class CameraParameter : MonoBehaviour
     }
 
     [ContextMenu("Apply Change")]
-    private void ApplyChange()
+    public void ApplyChange()
     {
         cam.usePhysicalProperties = true;
 
